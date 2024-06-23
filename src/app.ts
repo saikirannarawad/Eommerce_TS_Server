@@ -37,7 +37,7 @@ app.get("/", (req, res) => {
   res.send("API Working with /api/v1");
 });
 
-// Using Routes
+// Using Route
 app.use("/api/v1/user", userRoute);
 app.use("/api/v1/product", productRoute);
 app.use("/api/v1/order", orderRoute);
